@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="mystl.css">
+    <style>
+        h1{font-family: Arial, Helvetica, sans-serif;}
+        h2{font-family: Arial, Helvetica, sans-serif;}
+        h3{font-family: Arial, Helvetica, sans-serif;}
+        a{font-family: Arial, Helvetica, sans-serif;}
+        p{font-family: Arial, Helvetica, sans-serif;}
+    </style>
+    <script src="https://kit.fontawesome.com/d147797cce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logonew.png" alt="logo" width="250" height="auto">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="container">
+            <div class="user-image">
+                <img src=
+             "Images/Profile pic 2024.jpg"
+                alt="this image contains user-image">
+            </div>
+        <div class="header-text">
+            <h1>Hi, I'm Anoop from India.</h1>
+            <h2>Web developer | Graphic designer | Digital marketer</h2>
+            <p>Welcome to my portfolio. Explore us to make your business journey Easy & Reachable. I'm mixing creativity & professionalism to get best outcome.</p>
+        </div>
+        </div>
+    </div>
+<!-- ------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/AnoopAbPic Transparent HD.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Discover the convergence of design, programming, and digital prowess. 
+                        As a Programmer, Graphic Designer & YouTube Creator I merge creativity with technology.
+                        Guiding brands to success. My Digital Marketing skills create impactful online narratives.
+                       Explore the intersection of innovation on my professional journey. </p>
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Graphic designing</span><br><span1>Poster, Flyer,T-shirt, Logo designer.</span1></li>
+                                <li><span>Web Development</span><br><span1>Website developer.</span1></li>
+                                <li><span>Digital Marketing</span><br><span1>Google Ads, Facebook Ads expert.</span1></li>
+                            </ul>
+                        </div>
+                
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020-Curent</span><br><span1>Working as a graphic designer (Poster, Flyer,T-shirt, Logo designer).</span1></li>
+                                <li><span>2022-Current</span><br><span1>Working as a Web developer.</span1></li>
+                                <li><span>2023-Current</span><br><span1>Working as a Digital marketer (Google Ads, Facebook Ads expert.)</span1></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Tech</span><br><span1>From Harcourt Butler technology University. Kanpur</span1></li>
+                                <li><span>Minor in Business Analytics</span><br><span1>From Harcourt Butler technology University. Kanpur</span1></li>
+                                <li><span>Class 12</span><br><span1>From S.R.S Inter College. Barabanki</span1></li>
+                                <li><span>Class 10</span><br><span1>From G.D.L.B Inter College. Barabanki</span1></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------services----------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Making Srv.</h2>
+                    <p>We make Website, Landing Pages for 
+                        Resturunt, Gym, Shopping store & many 
+                        more busiesses in best price.</p>
+                        <a href="#">Learn more.</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-digital-ocean"></i>
+                    <h2>Digital Marketing Srv.</h2>
+                    <p>We provide Ad services for Google Ad
+                        world, Facebook Ads to 
+                        grow your business.</p>
+                        <a href="#">Learn more.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Design Srv.</h2>
+                    <p>We make modern eye-catching Poster 
+                        Flyers, Logos for events & businesses
+                        with best services.</p>
+                        <a href="#">Learn more.</a>
+                </div>
+            </div
+        </div>
+    </div>
+    <!-- ----------------------------portfolio--------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/New bg 2a.png">
+                    <div class="layer">
+                        <h3>My Websites</h3>
+                        <p>I developed websites for online shopping <br>store, 
+                            Gym, Restaurant and hotels. You can <br>check my work below. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/New bg 3a.png">
+                    <div class="layer">
+                        <h3>My Marketing Work</h3>
+                        <p>This is my Google Ads & Facebook <br>
+                            marketing work and my clints list given 
+                            below <br>Ckeck details</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/New bg 1a.png">
+                    <div class="layer">
+                        <h3>My Designs</h3>
+                        <p>Some of my Posters, Logos, Flyers <br>
+                            designed for my clints and college events, <br>are attached below.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#"class=btn>See more</a>
+    </div>
+    <!-- ---------------------------------Contact------------------------------ -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="usb-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vab2693@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9569654080</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://x.com/Anoop_verma"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/anoop_verma__?igsh=MTF6YmdvNnFqc2FkeQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anoop-verma-715a2425a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                    <input type="text" name="Name" placeholder="Your Name" required><br><br>
+                    <input type="email" name="E-mail" placeholder="Your E-mail" required><br><br>
+                    <textarea name="Massage"  rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn1">Submit</button>
+                </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Anoop 2024. All rights reserved.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+        sidemenu.style.right = "0";
+        }
+        function closemenu(){
+        sidemenu.style.right = "-260px";
+        }
+    </script>
+</body>
+</html>
