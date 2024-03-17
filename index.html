@@ -211,5 +211,11 @@
         sidemenu.style.right = "-260px";
         }
     </script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+           var header = document.querySelector("nav");
+           header.classList.toggle("sticky", window.scrollY > 0);
+        })
+   </script>
 </body>
 </html>

@@ -28,6 +28,13 @@ nav{
     align-items:center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.6s;
+    padding: 20px 100px;
+    z-index: 100000;
 }
 
 .logo{
@@ -87,6 +94,10 @@ nav ul li a:hover::after{
    margin-left: 45%;
     /*box-shadow: 0.2em 0.2em 0.4em;*/
     object-fit: cover;
+  }
+  nav.sticky{
+    padding: 5px 100px;
+    background: #000b13;
   }
   /* -----------------------about------------------- */
   #about{
@@ -404,13 +415,13 @@ nav .fa-solid{
     padding-left: 11px;
   }
   nav img{
-    width: 45%;
-    margin-left: -25px;
+    width: 70%;
+    margin-left: -75px;
   }
   nav .fa-solid{
     display: block;
     font-size: 25px;
-    margin-right: -10px;
+    margin-right: -55px;
   }
   nav ul{
     background: #ff004f;
